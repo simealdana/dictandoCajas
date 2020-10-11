@@ -1,0 +1,39 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" },
+    "users":[
+        {   
+            "id":1,
+            "name":"Simeon",
+            "surName":"Aldana",
+            "dni":"95841184",
+            "girlFriendId":2,
+            "friend":[
+                {"id":3,"name":"Leonel"}
+            ]
+        },
+        {   
+            "id":2,
+            "name":"Maria",
+            "surName":"Mendez",
+            "dni":"95999999",
+            "girlFriendId":1,
+            "friend":[
+                {"id":3,"name":"Leonel"}
+            ]
+        },
+        {   
+            "id":3,
+            "name":"Leonel",
+            "surName":"Pirela",
+            "dni":"12345566",
+            "girlFriendId":null,
+            "friend":[]
+        }
+    ]
+}
