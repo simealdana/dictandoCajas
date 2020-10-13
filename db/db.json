@@ -15,7 +15,15 @@
             "girlFriendId":2,
             "friend":[
                 {"id":3,"name":"Leonel"}
-            ]
+            ],
+            "productsList":[
+                {"id":10,"name":"pelota"},
+                {"id":14,"name":"bate"},
+                {"id":16,"name":"botas"},
+                {"id":1,"name":"medias"},
+                {"id":19,"name":"mesa"},
+                {"id":12,"name":"raqueta"}
+            ] 
         },
         {   
             "id":2,
@@ -25,7 +33,13 @@
             "girlFriendId":1,
             "friend":[
                 {"id":3,"name":"Leonel"}
-            ]
+            ],
+            "productsList":[
+                {"id":10,"name":"pelota"},
+                {"id":14,"name":"bate"},
+                {"id":19,"name":"mesa"},
+                {"id":12,"name":"raqueta"}
+            ] 
         },
         {   
             "id":3,
@@ -33,7 +47,18 @@
             "surName":"Pirela",
             "dni":"12345566",
             "girlFriendId":null,
-            "friend":[]
+            "friend":[],
+            "productsList":[
+                {"id":10,"name":"pelota"},
+                {"id":14,"name":"bate"},
+                {"id":16,"name":"botas"},
+                {"id":1,"name":"medias"},
+                {"id":19,"name":"mesa"},
+                {"id":12,"name":"raqueta"},
+                {"id":3,"name":"cama"},
+                {"id":9,"name":"pasta"},
+                {"id":23,"name":"camisa"}
+            ] 
         }
     ]
 }
